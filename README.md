@@ -1,1 +1,1 @@
-Template zur Nutzung von Latex für Bauingenieurstudenten der FHNW
+Template zur Nutzung von Latex für Bauingenieurstudenten der FHNW.
