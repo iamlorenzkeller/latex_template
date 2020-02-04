@@ -1,0 +1,6 @@
+
+\babel@toc {ngerman}{}
+\save@tocdepth \setcounter {tocdepth}{1}
+\contentsline {chapter}{\numberline {1}Kapitel}{1}{chapter.1}% 
+\contentsline {chapter}{Abbildungsverzeichnis}{2}{section*.3}% 
+\contentsline {chapter}{Tabellenverzeichnis}{2}{section*.5}% 

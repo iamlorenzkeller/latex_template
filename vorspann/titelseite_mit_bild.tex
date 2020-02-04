@@ -1,0 +1,70 @@
+%
+% Project documentation template
+% =======================================================================
+% This is part of the document "Project documentation template".
+% Authors: lk
+%
+
+\begin{titlepage}
+
+% FHNW-Logo absolute placed at (28,12) on A4 and picture
+%----------------------------------------------------------------------
+\setlength{\unitlength}{1mm}
+\begin{textblock}{20}[0,0](28,12)
+	\includegraphics[scale=1.0]{bilder/fhnw_logo.png}
+\end{textblock}
+
+\begin{textblock}{154}[0,0](28,50)
+	\includegraphics[scale=1.0]{bilder/platzhalter.jpg}			% Titelbild definieren
+\end{textblock}
+
+% Institution / Titel / Untertitel / Autoren / Experten:
+%----------------------------------------------------------------------
+\begin{flushleft}
+
+\vspace*{115mm}
+
+\fontsize{26pt}{28pt}\selectfont 
+\titel \\								% Titel aus der Datei vorspann/titel.tex lesen
+\vspace{2mm}
+
+%\fontsize{16pt}{20pt}\selectfont\vspace{0.3em}
+%\untertitel	\\						% Untertitel eingeben
+%\vspace{5mm}
+
+%\fontsize{10pt}{12pt}\selectfont
+%\textbf{\berichtklasse} \\				% eingeben
+%\vspace{3mm}
+
+% Abstract (eingeben):
+%----------------------------------------------------------------------
+\begin{textblock}{150}(28,190)
+\fontsize{10pt}{12pt}\selectfont		%[Kurztext (Abstract) einfügen, falls gewünscht] \\ 
+\end{textblock}
+
+\begin{textblock}{150}(28,225)
+\fontsize{10pt}{17pt}\selectfont
+\begin{tabbing}
+xxxxxxxxxxxxxx\=\kill
+Studiengang: \> \studiengang \\			% Namen eingeben
+Autoren: \> \autoren \\					% Namen eingeben
+Betreuer: \> \betreuer \\				% Namen eingeben
+%Auftraggeber: \> [X AG] \\				% Namen eingeben
+%Experten: \> [Prof. Dr.~X]	\\			% Namen eingeben
+Datum: \> \versiondate \\				% aus Datei vorspann/version.tex lesen
+\end{tabbing}
+
+\end{textblock}
+\end{flushleft}
+
+\begin{textblock}{150}(28,280)
+\noindent 
+\color{black}\fontsize{9pt}{10pt}\selectfont
+Fachhochschule Nordwestschweit | Hochschule für Architektur, Bau und Geomatik
+\color{black}\selectfont
+\end{textblock}
+
+\end{titlepage}
+
+% =======================================================================
+%
